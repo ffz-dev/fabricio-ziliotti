@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className="court-pattern relative min-h-screen bg-gradient-to-br from-green-50 via-green-50 to-green-100">
+    <div className="court-pattern relative min-h-full bg-gradient-to-br from-green-50 via-green-50 to-green-100">
       {/* Fundo sutil com blobs */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute -top-24 -left-24 w-[36rem] h-[36rem] rounded-full bg-green-300/25 blur-3xl"></div>

@@ -11,13 +11,12 @@ const Footer = () => {
         </div>
 
         {/* Créditos */}
-        <div className="glass-effect rounded-2xl p-4">
-          <div className="text-xs text-slate-500 space-y-1">
-           
-            <div className="text-slate-400">
-              Desenvolvido por Fabricio Ziliotti
-            </div>
-          </div>
+        <div className="mt-4 mb-6 pb-6 flex flex-col items-center gap-2">
+          <div className="h-px w-16 bg-gradient-to-r from-transparent via-green-300 to-transparent" />
+          <p className="text-xs text-slate-400">
+            © {new Date().getFullYear()} · Desenvolvido por{' '}
+            <span className="text-green-700 font-medium">Fabrício Ziliotti</span>
+          </p>
         </div>
       </div>
     </footer>
