@@ -17,12 +17,12 @@ function App() {
   }
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-green-50 via-blue-50 to-green-100">
+    <div className="court-pattern relative min-h-screen bg-gradient-to-br from-green-50 via-green-50 to-green-100">
       {/* Fundo sutil com blobs */}
       <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute -top-24 -left-24 w-[36rem] h-[36rem] rounded-full bg-green-300/30 blur-3xl"></div>
-        <div className="absolute bottom-[-8rem] right-[-8rem] w-[40rem] h-[40rem] rounded-full bg-blue-300/30 blur-3xl"></div>
-        <div className="absolute top-1/3 right-1/4 w-[24rem] h-[24rem] rounded-full bg-green-200/25 blur-3xl"></div>
+        <div className="absolute -top-24 -left-24 w-[36rem] h-[36rem] rounded-full bg-green-300/25 blur-3xl"></div>
+        <div className="absolute bottom-[-8rem] right-[-8rem] w-[40rem] h-[40rem] rounded-full bg-green-400/20 blur-3xl"></div>
+        <div className="absolute top-1/3 right-1/4 w-[24rem] h-[24rem] rounded-full bg-green-200/20 blur-3xl"></div>
       </div>
 
       <main className="container mx-auto px-4 py-6" role="main">
@@ -41,7 +41,7 @@ function App() {
         aria-label="Converse no WhatsApp"
         title="Converse no WhatsApp"
         onClick={handleWhatsAppCtaClick}
-        className="fixed bottom-5 right-5 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full shadow-lg shadow-green-400/30 hover:shadow-green-500/50 bg-green-500 hover:bg-green-600 text-white transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-500"
+        className="fixed bottom-5 right-5 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full animate-pulse-ring shadow-lg shadow-green-600/30 hover:shadow-green-700/50 bg-green-600 hover:bg-green-700 text-white transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-600"
       >
         <span className="sr-only">WhatsApp</span>
         <svg
