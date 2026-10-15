@@ -46,7 +46,7 @@ const Links = () => {
       id: 14,
       title: 'Estude o Pickleball no meu site',
       description: 'Assuntos separados por categorias e temas',
-      url: 'https://pickleball-brasil.github.io/guia-do-pickleball/',
+      url: 'https://ffz-dev.github.io/guia-do-pickleball/',
       Icon: BookIcon,
     },
     {

@@ -65,14 +65,14 @@ const Stats = () => {
     months: 'Iniciei em julho de 2024 no Clube Castelinho em Franca-SP. Já gostava de jogar tênis de mesa desde criança e me apaixonei assim que conheci o esporte.',
     cities: 'Já disputei torneios e jogos nas cidades: Araraquara, Araras, Franca, Limeira, Natal, Ribeirão Preto, Taquaritinga.',
     tournaments: 'Disputei torneios nas cidades Araraquara, Araras, Franca, Limeira e Taquaritinga. Sendo medalhista em jogos de duplas masculinas, duplas mistas e simples.',
-    medals: 'Até agora foram 11 medalhas conquistadas em diferentes categorias.'
+    medals: 'Até agora foram 17 medalhas conquistadas em diferentes categorias.'
   }
 
   const stats = [
     { id: 1, value: monthsPlaying, label: 'Meses Jogando',       Icon: CalendarIcon, message: messages.months,      eventLabel: 'months_playing'   },
     { id: 2, value: 7,             label: 'Cidades',              Icon: MapPinIcon,   message: messages.cities,      eventLabel: 'cities_known'     },
-    { id: 3, value: 10,            label: 'Torneios',             Icon: TrophyIcon,   message: messages.tournaments, eventLabel: 'tournaments_played' },
-    { id: 4, value: 11,            label: 'Medalhas',             Icon: MedalIcon,    message: messages.medals,      eventLabel: 'medals_won'       },
+    { id: 3, value: 13,            label: 'Torneios',             Icon: TrophyIcon,   message: messages.tournaments, eventLabel: 'tournaments_played' },
+    { id: 4, value: 17,            label: 'Medalhas',             Icon: MedalIcon,    message: messages.medals,      eventLabel: 'medals_won'       },
   ]
 
   return (

@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://pickleball-brasil.github.io/fabricio-ziliotti",
+  "homepage": "https://ffz-dev.github.io/fabricio-ziliotti",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
